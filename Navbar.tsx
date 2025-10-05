@@ -1,3 +1,65 @@
+// ตัวอย่าง
+// import "./globals.css";
+// import Navbar, { NavItem } from "@/components/Navbar";
+// import Link from "next/link";
+// import Image from "next/image";
+
+// const menu: NavItem[] = [
+//   {
+//     href: "/about",
+//     label: "เกี่ยวกับเรา",
+//   },
+//   {
+//     label: "บริการ",
+//     children: [
+//       { href: "/services/aed-map", label: "แผนที่ AED" },
+//       { href: "/services/training", label: "อบรม CPR/AED", textClass: "text-emerald-700" },
+//       { href: "/services/support", label: "ขอสนับสนุนโครงการ" },
+//     ],
+//   },
+//   {
+//     label: "ทรัพยากร",
+//     children: [
+//       { href: "/resources/docs", label: "เอกสาร/คู่มือ" },
+//       { href: "https://youtube.com/@phuketaed", label: "วิดีโอ", external: true },
+//     ],
+//   },
+//   { href: "/contact", label: "ติดต่อเรา" },
+// ];
+
+// export default function RootLayout({ children }: { children: React.ReactNode }) {
+//   return (
+//     <html lang="th">
+//       <body>
+//         <Navbar
+//           items={menu}
+//           leftContent={
+//             <Link href="/" className="flex items-center gap-2">
+//               <Image src="/logo.svg" alt="logo" width={32} height={32} />
+//               <span className="text-xl font-bold tracking-tight text-emerald-800">
+//                 AED Phuket
+//               </span>
+//             </Link>
+//           }
+//           // ปรับธีมได้ตามใจ
+//           bgClass="bg-white"
+//           borderClass="border-b border-emerald-100"
+//           linkClass="text-slate-700"
+//           hoverLinkClass="hover:text-emerald-600"
+//           activeLinkClass="text-emerald-700 font-semibold"
+//           dropdownCardClass="bg-white shadow-xl ring-1 ring-emerald-100"
+//           dropdownItemClass="text-slate-700 hover:bg-emerald-50"
+//           mobileDividerClass="border-t border-emerald-100"
+//         />
+//         <main className="min-h-screen">{children}</main>
+//         <footer className="bg-slate-50 text-center py-6 text-slate-600">
+//           © 2025 AED Phuket
+//         </footer>
+//       </body>
+//     </html>
+//   );
+// }
+
 "use client";
 
 import Link from "next/link";
